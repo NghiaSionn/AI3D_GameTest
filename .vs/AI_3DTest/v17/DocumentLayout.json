@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "D:\\Games\\Unity\\AI_3DTest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|d:\\games\\unity\\ai_3dtest\\assets\\scipts\\pselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\pselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|d:\\games\\unity\\ai_3dtest\\assets\\scipts\\selector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\selector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|D:\\Games\\Unity\\AI_3DTest\\assets\\scipts\\sequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\sequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|d:\\games\\unity\\ai_3dtest\\assets\\scipts\\robbercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\robbercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|D:\\Games\\Unity\\AI_3DTest\\assets\\scipts\\behaviortree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\behaviortree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|D:\\Games\\Unity\\AI_3DTest\\assets\\scipts\\leaf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\leaf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|D:\\Games\\Unity\\AI_3DTest\\assets\\scipts\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|D:\\Games\\Unity\\AI_3DTest\\assets\\scipts\\leaf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\leaf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|D:\\Games\\Unity\\AI_3DTest\\assets\\scipts\\robbercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\robbercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|D:\\Games\\Unity\\AI_3DTest\\assets\\scipts\\lock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\lock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|D:\\Games\\Unity\\AI_3DTest\\assets\\scipts\\inverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\inverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|D:\\Games\\Unity\\AI_3DTest\\assets\\scipts\\btcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\btcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|D:\\Games\\Unity\\AI_3DTest\\assets\\scipts\\behaviortree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\behaviortree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|D:\\Games\\Unity\\AI_3DTest\\assets\\scipts\\sequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857A877A-CA3E-BB1C-9D48-2E0BBCE545A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scipts\\sequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,13 +54,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Node.cs",
               "DocumentMoniker": "D:\\Games\\Unity\\AI_3DTest\\Assets\\Scipts\\Node.cs",
               "RelativeDocumentMoniker": "Assets\\Scipts\\Node.cs",
               "ToolTip": "D:\\Games\\Unity\\AI_3DTest\\Assets\\Scipts\\Node.cs",
               "RelativeToolTip": "Assets\\Scipts\\Node.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAAC4AAAANAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABoAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-13T11:45:33.118Z",
               "IsPinned": true
@@ -52,65 +68,112 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PSelector.cs",
+              "DocumentMoniker": "D:\\Games\\Unity\\AI_3DTest\\Assets\\Scipts\\PSelector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scipts\\PSelector.cs",
+              "ToolTip": "D:\\Games\\Unity\\AI_3DTest\\Assets\\Scipts\\PSelector.cs",
+              "RelativeToolTip": "Assets\\Scipts\\PSelector.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAmwBQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T13:31:29.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Inverter.cs",
+              "DocumentMoniker": "D:\\Games\\Unity\\AI_3DTest\\Assets\\Scipts\\Inverter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scipts\\Inverter.cs",
+              "ToolTip": "D:\\Games\\Unity\\AI_3DTest\\Assets\\Scipts\\Inverter.cs",
+              "RelativeToolTip": "Assets\\Scipts\\Inverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T12:23:18.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Lock.cs",
+              "DocumentMoniker": "D:\\Games\\Unity\\AI_3DTest\\Assets\\Scipts\\Lock.cs",
+              "RelativeDocumentMoniker": "Assets\\Scipts\\Lock.cs",
+              "ToolTip": "D:\\Games\\Unity\\AI_3DTest\\Assets\\Scipts\\Lock.cs",
+              "RelativeToolTip": "Assets\\Scipts\\Lock.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T11:51:17.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Selector.cs",
               "DocumentMoniker": "D:\\Games\\Unity\\AI_3DTest\\Assets\\Scipts\\Selector.cs",
               "RelativeDocumentMoniker": "Assets\\Scipts\\Selector.cs",
               "ToolTip": "D:\\Games\\Unity\\AI_3DTest\\Assets\\Scipts\\Selector.cs",
               "RelativeToolTip": "Assets\\Scipts\\Selector.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAABkAAAAiAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABIAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-13T13:45:00.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Sequence.cs",
               "DocumentMoniker": "D:\\Games\\Unity\\AI_3DTest\\Assets\\Scipts\\Sequence.cs",
               "RelativeDocumentMoniker": "Assets\\Scipts\\Sequence.cs",
               "ToolTip": "D:\\Games\\Unity\\AI_3DTest\\Assets\\Scipts\\Sequence.cs",
               "RelativeToolTip": "Assets\\Scipts\\Sequence.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBUAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T12:32:14.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-13T12:32:14.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Behaviortree.cs",
               "DocumentMoniker": "D:\\Games\\Unity\\AI_3DTest\\Assets\\Scipts\\Behaviortree.cs",
               "RelativeDocumentMoniker": "Assets\\Scipts\\Behaviortree.cs",
               "ToolTip": "D:\\Games\\Unity\\AI_3DTest\\Assets\\Scipts\\Behaviortree.cs",
               "RelativeToolTip": "Assets\\Scipts\\Behaviortree.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAuwBsAAAAFAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAACAAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-13T11:59:19.545Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Leaf.cs",
               "DocumentMoniker": "D:\\Games\\Unity\\AI_3DTest\\Assets\\Scipts\\Leaf.cs",
               "RelativeDocumentMoniker": "Assets\\Scipts\\Leaf.cs",
               "ToolTip": "D:\\Games\\Unity\\AI_3DTest\\Assets\\Scipts\\Leaf.cs",
               "RelativeToolTip": "Assets\\Scipts\\Leaf.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBoAAAAHAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-13T11:52:58.067Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "RobberController.cs",
               "DocumentMoniker": "D:\\Games\\Unity\\AI_3DTest\\Assets\\Scipts\\RobberController.cs",
               "RelativeDocumentMoniker": "Assets\\Scipts\\RobberController.cs",
               "ToolTip": "D:\\Games\\Unity\\AI_3DTest\\Assets\\Scipts\\RobberController.cs",
               "RelativeToolTip": "Assets\\Scipts\\RobberController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAKAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAuwDYAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T12:03:28.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-13T12:03:28.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BTController.cs",
+              "DocumentMoniker": "D:\\Games\\Unity\\AI_3DTest\\Assets\\Scipts\\BTController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scipts\\BTController.cs",
+              "ToolTip": "D:\\Games\\Unity\\AI_3DTest\\Assets\\Scipts\\BTController.cs",
+              "RelativeToolTip": "Assets\\Scipts\\BTController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAqwCcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T12:45:53.103Z"
             }
           ]
         }

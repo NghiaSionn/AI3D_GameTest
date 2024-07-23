@@ -24,6 +24,9 @@ public class Node
 	//tên node
 	public string name;
 
+	// thứ tự
+	public int sortOrder;
+
 	//constructor
 	public Node()
 	{

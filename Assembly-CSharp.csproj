@@ -62,10 +62,14 @@
   <ItemGroup>
     <Compile Include="Assets\Models\Rotate.cs" />
     <Compile Include="Assets\Scipts\Node.cs" />
+    <Compile Include="Assets\Scipts\Inverter.cs" />
     <Compile Include="Assets\Scipts\RobberController.cs" />
     <Compile Include="Assets\Scipts\Behaviortree.cs" />
     <Compile Include="Assets\Scipts\Selector.cs" />
+    <Compile Include="Assets\Scipts\Lock.cs" />
     <Compile Include="Assets\Scipts\Leaf.cs" />
+    <Compile Include="Assets\Scipts\BTController.cs" />
+    <Compile Include="Assets\Scipts\PSelector.cs" />
     <Compile Include="Assets\Scipts\Sequence.cs" />
   </ItemGroup>
   <ItemGroup>

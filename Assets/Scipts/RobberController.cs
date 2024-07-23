@@ -6,98 +6,149 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Robber : MonoBehaviour
+public class Robber : BTController
 {
-    private BehaviorTree tree;
-
     public GameObject diamond;
     public GameObject van;
+    public GameObject monolisa;
+
     public List<GameObject> picture;
 
-    NavMeshAgent agent;
+    public GameObject FrontDoor;
+    public GameObject BackDoor;
 
-    //trạng thái của nhân vật
-    public enum ActionState
-    {
-        Idle,
-        Working
-    }
-
-    //khởi động game ở trạng thái idle
+  
+    // Khởi động game ở trạng thái idle
     public ActionState actionsState = ActionState.Idle;
 
-    //trạng thái của cây
+    // Trạng thái của cây
     Node.Status treeStatus = Node.Status.Running;
+
+    [Range(0, 1000)]   public float money;
 
     void Start()
     {
-        agent = GetComponent<NavMeshAgent>();
-        tree = new BehaviorTree();
+        base.Start();
 
         //tạo các node
         var goToDiamond = new Leaf("Steal Diamond", GoToDiamond);
         var goToVan = new Leaf("Go to Van", GoToVan);
+        var goToMonoLisa = new Leaf("Go to MonoLisa", GoToMonoLisa);
         //var goToPicture = new Leaf("Go to Picture", GoToPicture);
+        var goToFrontDoor = new Leaf("Go to Front Door", GotToFrontDoor);
+        var goToBackDoor = new Leaf("Go to Front Door", GotToBackDoor);
+
+        var hasMoney = new Leaf ("Has Money", HasMoney);
+
+        var openDoor = new Selector("Open Door");
+        openDoor.AddChild(goToFrontDoor);
+        openDoor.AddChild(goToBackDoor);
+
+        var objectToSteal = new Selector("Object to Steal");
+        objectToSteal.AddChild(goToDiamond);
+        objectToSteal.AddChild(goToMonoLisa);
+        
+        var inverterMoney = new Inverter("Inverter Money");
+        inverterMoney.AddChild(hasMoney);
 
         // tạo node Sequence
         var stealSomething = new Sequence("Steal something");
+        stealSomething.AddChild(hasMoney);
+        stealSomething.AddChild(openDoor);
+        stealSomething.AddChild(goToMonoLisa);
         stealSomething.AddChild(goToDiamond);
         stealSomething.AddChild(goToVan);
-
+        //stealSomething.AddChild(goToPicture);
+        
         tree.AddChild(stealSomething);
 
         //in cây ra màn hình 
-        tree.PrintTree();
+        tree.PrintTree(); 
 
         ////chạy cây
         //tree.Process();
+
     }
 
-    //private Node.Status GoToPicture()
-    //{
-        
-
-    //}
-
-    // hàm xử lý go to dvan
-    private Node.Status GoToVan()
+    private Node.Status GoToMonoLisa()
     {
-        return GoToLocation(van.transform.position);
-    }
-
-    // hàm xử lý go to diamond
-    private Node.Status GoToDiamond()
-    {
-        return GoToLocation(diamond.transform.position);
-    }
-
-    //Hàm xử lý di chuyển đến vị trí 
-    private Node.Status GoToLocation(Vector3 location)
-    {
-        var distance = Vector3.Distance(transform.position, location);
-        if(actionsState == ActionState.Idle) 
+        if (monolisa.activeSelf == false)  return Node.Status.Failure;
+        var status = GoToLocation(monolisa.transform.position);
+        if(status == Node.Status.Success) 
         {
-            agent.SetDestination(location);
-            actionsState = ActionState.Working;
+            monolisa.transform.parent = this.gameObject.transform;
         }
-        else if(Vector3.Distance(agent.pathEndPosition,location)  >= 2) 
+        return status;
+    }
+
+    public Node.Status HasMoney()
+    {
+        if(money < 500)
         {
-            actionsState = ActionState.Idle;
             return Node.Status.Failure;
         }
-        else if(distance < 2)
-        {
-            actionsState = ActionState.Idle;
-            return Node.Status.Success;
-        }
-        return Node.Status.Running;
+        return Node.Status.Success;
     }
 
-    void Update()
+    private Node.Status GoToDoor(GameObject door)
     {
-        if(treeStatus == Node.Status.Running) 
+        var status = GoToLocation(door.transform.position);
+        if(status == Node.Status.Success)
         {
-            treeStatus = tree.Process();
+            if(!door.GetComponent<Lock>().islocked)
+            {
+                door.SetActive(false);
+                return Node.Status.Success;
+            }
+            return Node.Status.Failure;
         }
+        return status;
     }
+
+    private Node.Status GotToBackDoor()
+    {
+        return GoToDoor(BackDoor);
+    }
+
+    private Node.Status GotToFrontDoor()
+    {
+        return GoToDoor(FrontDoor);
+    }
+
+    // Hàm xử lý go to van
+    private Node.Status GoToVan()
+    {
+        var status = GoToLocation(van.transform.position);
+        if(status == Node.Status.Success)
+        {
+            diamond.SetActive(false);
+            monolisa.SetActive(false);
+            money += 500;
+        }
+        return status;
+    }
+
+    // Hàm xử lý go to diamond
+    private Node.Status GoToDiamond()
+    {
+        if (diamond.activeSelf == false)
+            return Node.Status.Failure;
+        var status = GoToLocation(diamond.transform.position);
+        if (status == Node.Status.Success)
+        {
+            diamond.transform.parent = this.gameObject.transform;
+        }
+
+        return status;
+    }
+
+    // Hàm xử lý go to picture
+    //private Node.Status GoToPicture()
+    //{
+    //    if (picture.Count == 0) return Node.Status.Failure;
+
+    //    var randomIndex = UnityEngine.Random.Range(0, picture.Count);
+    //    var targetPicture = picture[randomIndex];
+    //    return GoToLocation(targetPicture.transform.position);
+    //}
 }

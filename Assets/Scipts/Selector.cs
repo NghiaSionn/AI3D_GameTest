@@ -5,12 +5,12 @@ using UnityEngine;
 public class Selector : Node
 {
     //constructor
-    public void Seletor()
+    public Selector()
     {
 
     }
 
-    public void Seletor(string name)
+    public Selector(string name)
     {
         this.name = name;
     }

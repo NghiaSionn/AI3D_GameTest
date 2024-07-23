@@ -15,10 +15,11 @@ public class Leaf : Node
     {
 
     }
-    public Leaf(string name,Tick process)
+    public Leaf(string name,Tick process, int order)
     {
         this.name = name;
         ProcessMethod = process;
+        sortOrder = order;
     }
 
     // hàm chạy node, trả về trạng thái của node

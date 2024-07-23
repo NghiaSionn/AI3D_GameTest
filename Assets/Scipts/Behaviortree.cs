@@ -23,6 +23,16 @@ public class BehaviorTree : Node
         public int level;
     }
 
+    public override Status Process()
+    {
+        if(children.Count == 0)
+        {
+            return Status.Success;
+        }
+
+        return children[currentChild].Process();
+    }
+
     //in cây ra màn hình
     public void PrintTree()
     {
